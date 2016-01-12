@@ -8,13 +8,14 @@ This is a core set of scripts to verify a MS based Radius server is responding a
 
 Lots of hacky stuff from Java, MS to get MSCHAPv2 objects / auth working
 
+* [check_radius.py] - Core script called by the executors, relies on mschapv2.py and lib/ dicts/
 * [mschapv2.py] - MSCHAPv2 Handler
 * [zabbix_executor.sh] - Zabbix External Script
 * [lvs_executor.sh] - RHEL LVS Script to feed into IPVSADM/LVS
 
 ### Installation
 
-You need Gulp installed globally:
+You need Python 2.7
 
 ```sh
 $ coming soon
