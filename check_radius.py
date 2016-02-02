@@ -9,11 +9,11 @@
     or CRITICAL with a return code 2 if Auth fails or there was a timeout. 
 '''
 import sys
-sys.path.append(sys.path[0] + "/../lib/") # to be fixed with updated folder structure
+sys.path.append(sys.path[0] + "/lib/") # to be fixed with updated folder structure
 import packet
 from client import Client
-from dictionary import Dictionary
-from auth import mschap2
+from dictionary import Dictionary 
+import mschap2
 from socket import gethostname, gethostbyname
 from time import time
 import getopt
