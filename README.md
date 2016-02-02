@@ -21,5 +21,10 @@ You need Python 2.7
 $ coming soon
 ```
 
+### Usage 
+./check_radius.py --username 'your_username' --password 'said_users_password' --port 'your_radius_port' --host 'raidus_host_or_balancer' --secret 'your_radius_secret'
+
+LVS and Zabbix shell scripts to run the above and input pre-configred details. 
+
 ### Credit and Notes
 Credit to Lee Webb for the initial script and finding the Java Reverse Engineering sections for MSCHAP. 
