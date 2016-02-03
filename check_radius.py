@@ -28,7 +28,7 @@ def getopts():
     required = [ "port", "dict", "host", "user", "pass", "type", "secret"]
     options = {}
     options["port"] = 1812
-    options["dict"] = sys.path[0] + "/dicts/dictionary"
+    options["dict"] = sys.path[0] + "/lib/dicts/dictionary"
     options["type"] = "mschap2"
     options["verbose"] = False
     try:
